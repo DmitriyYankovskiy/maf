@@ -1,1 +1,1 @@
-globalThis.host = "local.host";
+globalThis.host = "localhost";

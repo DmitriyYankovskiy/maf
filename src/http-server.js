@@ -8,10 +8,10 @@ const app = express();
 
 app.use(express.static("/public"));
 
-// app.use("/", require("../http-controllers/index.js"));
+app.use("/", require("../http-controllers/index.js"));
 
 let server = http.createServer(app);
 
 server.listen(PORT, HOST, () => {
-    console.log("http server was started on port: ${PORT}");
+    console.log(`http server was started on port: ${PORT}`);
 });
