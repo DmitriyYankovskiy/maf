@@ -1,0 +1,1 @@
+globalThis.host = "local.host";

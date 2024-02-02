@@ -1,0 +1,23 @@
+{
+  "name": "maf",
+  "version": "1.0.0",
+  "description": "mafia",
+  "main": "/src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriyYankovskiy/maf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriyYankovskiy/maf/issues"
+  },
+  "homepage": "https://github.com/DmitriyYankovskiy/maf#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  }
+}
