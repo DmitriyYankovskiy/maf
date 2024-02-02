@@ -1,16 +1,16 @@
 const PORT = 9999;
 const HOST = globalThis.host;
 
-const HTTP = require("http");
-const EXPRESS = require("express");
+const http = require("http");
+const express = require("express");
 
 let APP = express();
 
 app.set("view engine", "hbs");
 
-app.use(EXPRESS.static("/public"));
+app.use(express.static("/public"));
 
-app.use("/", require("../http-controllers/index.js"));
+app.use("", require("../http-controllers/index.js"));
 
 let server = HTTP.createServer(app);
 
